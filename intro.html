@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hey ❤️</title>
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(rgba(255,105,180,0.6), rgba(255,182,193,0.6)),
+    url("https://i.imgur.com/4iBKHAD.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    max-width: 320px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* 🎞️ GIF */
+img {
+    width: 160px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/* 💖 BUTTON */
+button {
+    width: 140px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+
+    background: linear-gradient(45deg, #ff2e63, #ff6f91);
+    color: white;
+    box-shadow: 0 5px 15px rgba(255,0,80,0.4);
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Hey You ❤️</h1>
+
+    <p>
+        I have something to tell you... 💌 <br>
+        It's been on my mind for a while 😶‍🌫️ <br>
+        Just promise me you'll answer honestly... 🥺
+    </p>
+
+    <img src="https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif" alt="Cute">
+
+    <br>
+
+    <button onclick="goNext()">Continue 💖</button>
+</div>
+
+<script>
+function goNext() {
+    window.location.href = "index.html"; // your main page
+}
+</script>
+
+</body>
+</html>
